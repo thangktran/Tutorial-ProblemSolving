@@ -40,10 +40,8 @@ function longestCommonSubSequencesHelper (s1, s2)
                 nextS2Index = j+1;
 
                 // Return immediately if this is last char of
-                // s1 or s2 and there is a match.
-                var s1End = i === (s1.length-1);
-                var s2End = nextS2Index === s2.length;
-                if ( s1End || s2End )
+                // s2 and there is a match.
+                if ( nextS2Index === s2.length )
                 {
                     return result;
                 }

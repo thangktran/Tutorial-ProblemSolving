@@ -1,0 +1,15 @@
+{
+  "name": "longestcommonsubsequences",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Find longest common subsequences from 2 strings.",
+  "main": "LongestCommonSubsequences.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Thang Tran <trankimthang279@gmail.com> (https://github.com/thangktran)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}

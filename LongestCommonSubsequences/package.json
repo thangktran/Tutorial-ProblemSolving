@@ -5,11 +5,19 @@
   "description": "Find longest common subsequences from 2 strings.",
   "main": "LongestCommonSubsequences.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint **/*.js",
+    "lint-fix": "eslint --fix **/*.js",
+    "lint-html": "eslint **/*.js -f html -o ./reports/lint-results.html"
   },
   "author": "Thang Tran <trankimthang279@gmail.com> (https://github.com/thangktran)",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-google": "^0.11.0",
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "npm": "^6.5.0"
   }
 }

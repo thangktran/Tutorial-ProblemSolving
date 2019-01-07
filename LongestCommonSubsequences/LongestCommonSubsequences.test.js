@@ -29,3 +29,18 @@ test (`'GXTXAYB', 'AGGTAB'`, () => {
     expect(longestCommonSubSequences ('GXTXAYB', 'AGGTAB'))
     .toBe('GTAB');
 });
+
+test (`'AXJSHDKASRD', 'RXJSHDERASDJAB'`, () => {
+    expect(longestCommonSubSequences ('AXJSHDKASRD', 'RXJSHDERASDJAB'))
+    .toBe('XJSHDASD');
+});
+
+test (`'RXJSHDERASDJAB', 'AXJSHDKASRD'`, () => {
+    expect(longestCommonSubSequences ('RXJSHDERASDJAB', 'AXJSHDKASRD'))
+    .toBe('XJSHDASD');
+});
+
+test (`'JASHDERASDJAB', 'JASHDERASDJAB'`, () => {
+    expect(longestCommonSubSequences ('JASHDERASDJAB', 'JASHDERASDJAB'))
+    .toBe('JASHDERASDJAB');
+});

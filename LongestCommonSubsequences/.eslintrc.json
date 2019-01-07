@@ -4,5 +4,8 @@
         "es6": true,
         "jest": true,
         "node": true
+    },
+    "rules": {
+        "quotes": ["error", "backtick"]
     }
 }

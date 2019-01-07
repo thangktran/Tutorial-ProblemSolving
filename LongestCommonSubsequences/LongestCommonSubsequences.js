@@ -31,7 +31,7 @@ function longestCommonSubSequencesImpl(s1, s2) {
   // If 1 of the string is empty, return an
   // empty string.
   if (s1.length == 0 || s2.length == 0) {
-    return '';
+    return ``;
   }
 
 
@@ -41,7 +41,7 @@ function longestCommonSubSequencesImpl(s1, s2) {
     // Different start character gives different sub-sequence.
     const newS1 = s1.substring(i);
     let nextS2Index = 0;
-    let resultTemp = '';
+    let resultTemp = ``;
 
     for (let k = 0; k < newS1.length; ++k) {
       for (let j = nextS2Index; j < s2.length; ++j) {

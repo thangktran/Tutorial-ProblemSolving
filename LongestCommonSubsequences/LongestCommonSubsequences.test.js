@@ -44,3 +44,13 @@ test(`'JASHDERASDJAB', 'JASHDERASDJAB'`, () => {
   expect(longestCommonSubSequences(`JASHDERASDJAB`, `JASHDERASDJAB`))
       .toBe(`JASHDERASDJAB`);
 });
+
+test(`'nematode knowledge', 'empty bottle'`, () => {
+  expect(longestCommonSubSequences(`nematode knowledge`, `empty bottle`))
+      .toBe(`emt ole`);
+});
+
+test(`'empty bottle', 'nematode knowledge'`, () => {
+  expect(longestCommonSubSequences(`empty bottle`, `nematode knowledge`))
+      .toBe(`emt ole`);
+});

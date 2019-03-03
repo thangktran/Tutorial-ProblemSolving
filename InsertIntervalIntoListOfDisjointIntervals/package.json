@@ -1,0 +1,20 @@
+{
+  "name": "insert-interval-into-list-of-disjoint-intervals",
+  "version": "0.0.1",
+  "private": true,
+  "description": "a module that sorts and inserts a given interval into a list of disjoint unsorted intervals.",
+  "main": "InsertIntervalIntoListOfDisjointInterval.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint **/*.js",
+    "lint-fix": "eslint --fix **/*.js",
+    "lint-html": "eslint **/*.js -f html -o ./reports/lint-results.html"
+  },
+  "author": "Thang Tran <trankimthang279@gmail.com> (https://github.com/thangktran)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "eslint-config-google": "^0.12.0",
+    "jest": "^24.1.0"
+  }
+}

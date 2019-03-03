@@ -1,9 +1,9 @@
 {
-  "name": "insert-interval-into-list-of-disjoint-intervals",
+  "name": "insert-interval-into-list-of-intervals",
   "version": "0.0.1",
   "private": true,
-  "description": "a module that sorts and inserts a given interval into a list of disjoint unsorted intervals.",
-  "main": "InsertIntervalIntoListOfDisjointInterval.js",
+  "description": "a module that sorts and inserts a given interval into a list of intervals.",
+  "main": "InsertIntervalIntoListOfIntervals.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint **/*.js",
